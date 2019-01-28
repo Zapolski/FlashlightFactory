@@ -4,7 +4,7 @@ public class LightLED implements IEnergyConsumer{
     private int chargeToTurn;
 
     public LightLED() {
-        this.chargeToTurn = 2;
+        this.chargeToTurn = 3;
     }
 
     public int getChargeToTurn() {

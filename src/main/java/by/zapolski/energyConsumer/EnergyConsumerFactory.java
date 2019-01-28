@@ -12,7 +12,7 @@ public class EnergyConsumerFactory {
     }
 
 
-    public IEnergyConsumer getLightSource(EnergyConsumerEnum energyConsumerEnum){
+    public IEnergyConsumer getEnergyConsumer(EnergyConsumerEnum energyConsumerEnum){
         switch (energyConsumerEnum){
             case LIGHT_BULB:{
                 return new LightBulb();

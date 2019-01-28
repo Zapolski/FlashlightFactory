@@ -1,9 +1,10 @@
-package by.zapolski.flashlight;
+package by.zapolski.products.flashlight;
 
 import by.zapolski.energy.IEnergySource;
 import by.zapolski.energyConsumer.IEnergyConsumer;
+import by.zapolski.products.IDevice;
 
-public class SimpleFlashlight implements Flashlight{
+public class SimpleFlashlight implements IDevice {
 
     protected boolean enable;
     protected IEnergySource energySource;
@@ -26,11 +27,11 @@ public class SimpleFlashlight implements Flashlight{
         enable=false;
     }
 
-    public IEnergySource getEnergySource() {
+    /*public IEnergySource getEnergySource() {
         return energySource;
-    }
+    }*/
 
-    public void setEnergySource(IEnergySource energySource) {
+    /*public void setEnergySource(IEnergySource energySource) {
         this.energySource = energySource;
-    }
+    }*/
 }
